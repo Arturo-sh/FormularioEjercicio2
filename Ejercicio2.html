@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Resgistro de datos </title>
+	<link rel="stylesheet" type="text/css" href="estilos.css">
+</head>
+<body>
+	<div id="formulario">
+		<form>
+			<label> Ingrese los datos del pasajero acompañante </label> <br />
+
+			<div class="campos">
+				<label for="nombre"> Nombre y apellidos </label> <br />
+				<input type="text" name="nombre" id="nombre" style="width: 404px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="pasaporte"> Documentos/Pasaporte </label> <br />
+				<input type="text" name="dni" id="dni" style="width: 60px;" required> 
+				<input type="number" name="pasaporte" id="pasaporte" style="width: 80px;" required> <br/>
+			</div>
+
+			<div class="campos">
+				<label for="fechaNacim"> Fecha de nacimiento </label> <br />
+				<input type="date" name="fechaNacim" id="fechaNacim" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="sexo"> Sexo </label> <br />
+				<select>
+					<option value="1"> Femenino </option>
+					<option value="2"> Masculino </option>
+				</select> <br />
+			</div>
+
+			<div  class="campos">
+				<label for="est_civ"> Estado Civil </label> <br />
+				<select style="width: 100px;">
+					<option value="1"> Soltero </option>
+					<option value="2"> Casado </option>
+					<option value="3"> Viudo/a </option>
+				</select> <br />
+			</div>
+
+			<div class="campos">
+				<label for="domicilio"> Domicilio </label> <br />
+				<input type="text" name="domicilio" id="domicilio" style="width: 304px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="localidad"> Localidad </label> <br />
+				<input type="text" name="localidad" id="localidad" style="width: 198px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="provincia"> Provincia </label> <br />
+				<input type="text" name="provincia" id="provincia" style="width: 198px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="pais"> País </label>
+				<input type="text" name="pais" id="pais" style="width: 414px;"required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="telefono"> Telefonos </label> <br />
+				<input type="number" name="telefono" id="telefono" style="width: 198px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="ocupacion"> Ocupacion </label> <br />
+				<input type="text" name="ocupacion" id="ocupacion" style="width: 198px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="grupo_sang"> Grupo Sanguíneo </label> <br />
+				<input type="text" name="grupo_sang" id="grupo_sang" style="width: 198px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="nacionalidad"> Nacionalidad </label> <br />
+				<input type="text" name="nacionalidad" id="nacionalidad" style="width: 198px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="correo"> e-mail </label> <br />
+				<input type="email" name="correo" id="correo" style="width: 175px;" required> <br />
+			</div>
+
+			<div class="campos">
+				<label for="pension"> Tipo de Pensión </label> <br />
+				<select style="width: 150px;">
+					<option value="1"> Single Superior </option>
+					<option value="2"> Opcion 2 </option>
+					<option value="3"> Opcion 3 </option>
+				</select> <br />
+			</div>
+
+			<div class="campos">
+				<label for="habitacion"> Habit. </label> <br />
+				<input type="number" name="habitacion" id="habitacion" style="width: 60px;" required> <br /> <br />
+			</div>
+
+			<div align="center">
+				<button id="boton1"> Capturar Cliente </button> 
+				<button id="boton2"> Aceptar </button>
+				<button id="boton3"> Cancelar </button>
+			</div>
+			
+		</form>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,28 @@
+#formulario{
+	width: 433px;
+	border: 2px solid #FB4512;
+	background-color: #2ECC71;
+	border-radius: 30px; 
+	padding: 15px; 
+	margin: 0 auto;
+}
+
+.campos{
+	float: left; 
+	margin: 5px;
+}
+
+#boton1{
+	width: 138px;
+	border-radius: 10px;
+}
+
+#boton2{
+	width: 138px;
+	border-radius: 10px;
+}
+
+#boton3{
+	width: 138px;
+	border-radius: 10px;
+}
